@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Select a Book to Add to Cart</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="books.html">Book Page</a>
+      <a href="cart.html">Cart Page</a>
+    </nav>
+  </header>
+
+  <section>
+    <select id="bookSelect">
+      <option value="">-- Choose a Book --</option>
+      <option value="Clean Code|500">Clean Code - ₱500</option>
+      <option value="The Pragmatic Programmer|600">The Pragmatic Programmer - ₱600</option>
+      <option value="Intro to Algorithms|800">Introduction to Algorithms - ₱800</option>
+    </select>
+    <button onclick="addToCart()">Add to Cart</button>
+  </section>
+</body>
+</html>
